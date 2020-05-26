@@ -1,1 +1,38 @@
-theme: jekyll-theme-hacker
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Setup
+title:            'FT Speech'
+tagline:          'FT Speech: Danish Parliament Speech Corpus'
+description:      'A speech corpus created from the recorded meetings of the Danish Parliament'
+url:              https://ftspeech.dk
+baseurl:          '/'
+                  # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+remote_theme:     fongandrew/hydeout
+
+corpus:
+  repo:          https://ftspeech.dk
+  download:      https://ftspeech.dk
+
+author:
+  name:           'Marija Stepanović'
+  url:            https://github.com/mstepanovic
+
+paginate:         3
+paginate_path:    '/news/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Sidebar link settings
+sidebar_home_link:  true
+sidebar_blog_link: /news
+
