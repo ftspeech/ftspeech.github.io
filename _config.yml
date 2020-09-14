@@ -16,8 +16,8 @@ baseurl:          '/'
 remote_theme:     fongandrew/hydeout
 
 corpus:
-  repo:          https://ftspeech.dk
-  download:      https://ftspeech.dk
+  repo:          https://github.com/ftspeech/ftspeech-corpus
+  download:      https://docs.google.com/forms/d/e/1FAIpQLSdv0OweHtKh__u0J0M8cjtm9hg3Yo_y8bWxVjQLLUeEyCAxjw/viewform
 
 author:
   name:           'Marija Stepanović'
