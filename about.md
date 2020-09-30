@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Documentation
+title: Docs
 sidebar_link: true
 ---
 
