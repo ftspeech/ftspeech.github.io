@@ -314,7 +314,7 @@ body { background-attachment: fixed; background-color: #202020; background-image
 
 #sidebar a:hover, #sidebar a:focus { text-decoration: underline; }
 
-#sidebar a:hover.icon, #sidebar a:focus.icon { text-decoration: none; }
+#sidebar a.icon:hover, #sidebar a.icon:focus { text-decoration: none; }
 
 #sidebar a.active { font-weight: bold; }
 
