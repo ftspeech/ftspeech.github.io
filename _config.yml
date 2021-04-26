@@ -16,7 +16,7 @@ baseurl:          '/'
 remote_theme:     fongandrew/hydeout
 
 corpus:
-  repo:          https://github.com/ftspeech/ftspeech-corpus
+  repo:          https://github.com/ftspeech/ftspeech-kaldi-recipe
   download:      https://docs.google.com/forms/d/e/1FAIpQLSdv0OweHtKh__u0J0M8cjtm9hg3Yo_y8bWxVjQLLUeEyCAxjw/viewform
 
 author:
