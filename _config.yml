@@ -35,6 +35,3 @@ plugins:
 # Sidebar link settings
 sidebar_home_link:  true
 sidebar_blog_link: /news
-
-
-theme: jekyll-theme-minimal
